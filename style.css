@@ -1,0 +1,121 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+h1{
+    font-size: 40px;
+    margin-bottom: 2px;
+    background: -webkit-linear-gradient(45deg, hotpink, tomato); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section{
+    height: 600px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%
+}
+
+.hello-biography-h2 {
+    margin-top: 172px;
+    margin-bottom: -18px;
+}
+
+p{
+    color: dimgray;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, hotpink, tomato);
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.top-portion{
+    
+    background-image: url("images/header-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.biography-portion{ 
+    background-image: url("images/biography-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#latest-work-h2{
+    text-align: center;
+    background-size: 100%;
+    margin-top: 80px;
+}
+
+
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+
+.one-third-width img{
+    width: 100%;
+}
+
+.latest-work-portion{ 
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer-portion{
+    text-align: center;
+    align-items: center;
+}
+
+#message-box {
+    width: 500px;
+    height: 120px;
+    background-image: linear-gradient(100deg, hotpink, tomato);
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+
+  }
+.footer-portion div p{
+    color: white;
+    padding-top: 23px;
+
+}
+h3{
+    margin-top: -25px;
+}
+
+.footer-portion{ 
+    background-image: url("images/footer-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer-portion p{
+    text-align: center;
+}
+#footer-p{
+    text-align: center;
+    
+}
